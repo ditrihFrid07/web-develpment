@@ -1,0 +1,49 @@
+@font-face {
+font-family: 'Open Sans Bold';
+src: url('OpenSans/OpenSans-Bold.eot');
+src: url('OpenSans/OpenSans-Bold.eot?#iefix') format('embedded-opentype'),
+url('OpenSans/OpenSans-Bold.woff') format('woff'),
+url('OpenSans/OpenSans-Bold.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Open Sans Semibold';
+src: url('OpenSans/OpenSans-SemiBold.eot');
+src: url('OpenSans/OpenSans-SemiBold.eot?#iefix') format('embedded-opentype'),
+url('OpenSans/OpenSans-SemiBold.woff') format('woff'),
+url('OpenSans/OpenSans-SemiBold.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Open Sans Light';
+src: url('OpenSans/OpenSans-Light.eot');
+src: url('OpenSans/OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+url('OpenSans/OpenSans-Light.woff') format('woff'),
+url('OpenSans/OpenSans-Light.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Open Sans Regular';
+src: url('OpenSans/OpenSans-Regular.eot');
+src: url('OpenSans/OpenSans-Regular.eot?#iefix') format('embedded-opentype'),
+url('OpenSans/OpenSans-Regular.woff') format('woff'),
+url('OpenSans/OpenSans-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+@font-face {
+font-family: 'Roboto Bold';
+src: url('Roboto/Roboto-Bold.eot');
+src: url('Roboto/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
+url('Roboto/Roboto-Bold.woff') format('woff'),
+url('Roboto/Roboto-Bold.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
