@@ -2,6 +2,7 @@
 
 $accent_bg : #e4fdf9
 $accent_color: #00897b
+$accent_color_blue: #3949ab
 $accent_color_text : #212121
 
 .text-title
@@ -20,6 +21,26 @@ $accent_color_text : #212121
     width: 100%
 .icon-svg-hover
     display: none
+.headhesive
+    position: fixed
+    width: 100%
+    transform: translateY(-100%)
+    transition: .5s ease
+.headhesive--stick
+    transform: translateY(0)
+    padding: 3px 0 !important
+    background: #000
+    .logo
+        span
+            font-family: 'Open Sans Bold'
+            color: $accent_color_text
+            font-size: 19px
+    .navbar-nav
+        .nav-item
+            .nav-link
+                color: $accent_color_text
+                font-size: 15px
+                font-family: 'Open Sans Semibold'
 
 
 /* header */
@@ -30,14 +51,14 @@ $accent_color_text : #212121
     height: 100vh
 
 .top-menu-block
-    background-color: #fff
-    position: fixed
-    width: 100%
+    background-color: #ffffff
     z-index: 2
     border-bottom: 1px solid #eeeeee
+    padding: 20px 0px
+    height: auto
 
 .al
-    height: 100px
+    
     
 
 .logo
@@ -58,7 +79,7 @@ $accent_color_text : #212121
             color: $accent_color_text
             font-size: 20px
             font-family: 'Open Sans Semibold'
-            position: relative
+
 /*            &:hover
                 color: $accent_color_text
             &::before
@@ -78,7 +99,7 @@ $accent_color_text : #212121
 
 .banner
     text-align: center
-    margin-top: 35%
+    margin-top: 25%
     transform: translateY(-25%)
     h1
         color: #ffffff
@@ -212,3 +233,93 @@ $accent_color_text : #212121
             &:hover
                 
 
+
+
+/*works*/
+.works
+    padding-top: 100px
+    padding-bottom: 130px
+
+.block-btn
+    max-width: 690px
+    width: 100%
+    margin: 0 auto
+    display: flex
+    justify-content: space-between
+    padding-top: 100px
+    padding-bottom: 100px
+    &__link
+        border: 3px solid $accent_color
+        padding: 17px 22px
+        color: $accent_color_text
+        font-family: 'Open Sans Semibold'
+        font-size: 20px
+        text-decoration: none
+        text-transform: uppercase
+        transition: all .5s ease
+        &:hover
+            background-color: $accent_color
+            color: #ffffff
+            text-decoration: none
+
+.works-card
+    padding-bottom: 100px
+.works-card-item
+    margin-bottom: 30px
+    position: relative
+    transition: all 0.5s ease
+    img
+        width: 100%
+    &__text
+        top: 0
+        left: 0
+        position: absolute
+        width: 100%
+        height: 100%
+        background-color: rgba(0,0,0,0.7)
+        color: #fff
+        opacity: 0
+        transition: all 0.25s
+        text-align: center
+        span
+            display: block
+            max-width: 130px
+            width: 100%
+            position: relative
+            font-family: 'Open Sans Semibold'
+            font-size: 20px
+            color: #ffffff
+            top: 50%
+            left: 50%
+            transform: translate(-50%,-50%)
+        p
+            display: block
+            max-width: 130px
+            width: 100%
+            position: relative
+            font-family: 'Open Sans Semibold'
+            font-size: 15px
+            color: #ffffff
+            top: 50%
+            left: 50%
+            transform: translate(-50%,-50%)
+
+    &:hover .works-card-item__text
+        opacity: 0.7
+
+.works-card-button
+    text-align: center
+    a
+        font-family: 'Roboto Bold'
+        font-size: 20px
+        color: #ffffff
+        text-transform: uppercase
+        text-decoration: none
+        background-color: $accent_color
+        padding: 24px 57px
+        border: 3px solid $accent_color
+        transition: all .5s ease
+        &:hover
+             background-color: #ffffff
+             color: $accent_color_text
+        

@@ -12,3 +12,6 @@ $(document).ready(function(){
         });
     }
 });
+
+//headhesive
+var header = new Headhesive('.top-menu-block');
